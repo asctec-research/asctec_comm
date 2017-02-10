@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>trinity_comm</name>
+  <version>0.0.0</version>
+  <description>
+    Library and example applications for the companion computer / ground station to
+    communicate with the trinity_sdk.
+  </description>
+  <url></url>
+  <author>Andre Ryll</author>
+  <author>Markus Achtelik</author>
+  <maintainer email="andre.ryll@asctec.de">Andre Ryll</maintainer>
+  <license>closed->BSD later?</license>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+  
+  <depend>trinity_msgs</depend>
+</package>
